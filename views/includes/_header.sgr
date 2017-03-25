@@ -6,7 +6,7 @@ header
           .navbar-header
             .navbar-brand
               a(href='/')
-                h1 Symbiotic Behavioral Treatment Center
+                h1 Logo Here
           .menu
             ul.nav.nav-tabs(role='tablist')
               each(loop='item in ["programs"]')

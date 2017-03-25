@@ -7,7 +7,8 @@ extends(src='layout.sgr')
       .row
         .col-lg-12
           .contents
-            h2
+            h2 Symbiotic Behavioral Treatment Center
+            p
               strong Our Mission:
               |  To enhance the mental health and well-being of people through evidenced-based treatment and to aid in the physical and psychological recovery of abused and traumatized dogs with interactive training and the application of the human-canine bond in a therapeutic environment.
     .container
