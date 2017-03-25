@@ -1,4 +1,6 @@
 extends(src='layout.sgr')
+  block(name='title')
+    title Symbiotic Behavioral Treatment Center
   block(name='content')
     include(src="includes/_slider.sgr")
     .container
