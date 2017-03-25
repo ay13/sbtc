@@ -1,0 +1,14 @@
+header
+  .container
+    .row
+      nav.navbar.navbar-default(role='navigation')
+        .container-fluid
+          .navbar-header
+            .navbar-brand
+              a(href='/')
+                h1 Symbiotic Behavioral Treatment Center
+          .menu
+            ul.nav.nav-tabs(role='tablist')
+              each(loop='item in ["programs"]')
+                li(class="{{ pageId === item ? 'active' : 'inactive'}}" role='presentation')
+                  a(href='{{ item }}') {{ item }}

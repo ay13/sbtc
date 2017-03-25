@@ -1,0 +1,9 @@
+extends(src='layout.sgr')
+  block(name='content')
+    .container
+      .row
+        .col-lg-12
+          .contents
+            h2
+              strong Our Mission:
+              |  To enhance the mental health and well-being of people through evidenced-based treatment and to aid in the physical and psychological recovery of abused and traumatized dogs with interactive training and the application of the human-canine bond in a therapeutic environment.
