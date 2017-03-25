@@ -20,4 +20,8 @@ html
       block(name='content')
 
     block(name='javascript')
+      script(src='vendor/jquery.js')
+      script(src='vendor/bootstrap.min.js')
+      script(src='vendor/responsive-slider.min.js')
+      script(src='vendor/wow.min.js')
       script(src='js/main.js' defer)

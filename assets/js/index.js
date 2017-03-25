@@ -1,1 +1,1 @@
-console.log('you can use ES6 here : )')
+wow = new WOW({}).init();

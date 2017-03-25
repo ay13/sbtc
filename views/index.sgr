@@ -1,5 +1,6 @@
 extends(src='layout.sgr')
   block(name='content')
+    include(src="includes/_slider.sgr")
     .container
       .row
         .col-lg-12

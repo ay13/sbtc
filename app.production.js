@@ -31,5 +31,6 @@ module.exports = {
       minify: true,
       warnForDuplicates: false // cssnano includes autoprefixer
     })
-  }
+  },
+  vendor: 'assets/vendor/**'
 }
