@@ -10,3 +10,12 @@ extends(src='layout.sgr')
             h2
               strong Our Mission:
               |  To enhance the mental health and well-being of people through evidenced-based treatment and to aid in the physical and psychological recovery of abused and traumatized dogs with interactive training and the application of the human-canine bond in a therapeutic environment.
+    .container
+      .row
+        .box
+          .col-md-6
+            .wow.bounceIn(data-wow-offset='0', data-wow-delay='0.8s')
+              .align-center
+                h4 Human-canine healing | TEDxLawrence
+                .embed-responsive.embed-responsive-16by9
+                  iframe.embed-responsive-item(width='560', height='315', src='https://www.youtube.com/embed/zK2HD9a2EjQ?rel=0&showinfo=0', frameborder='0', allowfullscreen='')
