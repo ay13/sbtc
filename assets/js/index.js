@@ -1,1 +1,1 @@
-wow = new WOW({}).init();
+const wow = new WOW({}).init();

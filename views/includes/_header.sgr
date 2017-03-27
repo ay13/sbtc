@@ -5,10 +5,13 @@ header
         .container-fluid
           .navbar-header
             .navbar-brand
-              a(href='/')
-                h1 Logo Here
+              // a(href='/')
+              //   h1
+              //     img(src="img/sbtc.svg")
           .menu
             ul.nav.nav-tabs(role='tablist')
+              li(class="{{ pageId === 'index' ? 'active' : 'inactive'}}" role='presentation')
+                a(href="/") Home
               each(loop='item in ["programs"]')
                 li(class="{{ pageId === item ? 'active' : 'inactive'}}" role='presentation')
                   a(href='{{ item }}') {{ item }}
