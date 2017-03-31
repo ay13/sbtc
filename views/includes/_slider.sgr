@@ -35,7 +35,7 @@
             li
               .slide-body(data-group='slide')
                 a(href="#")
-                  img(src='http://res.cloudinary.com/dwmmtpcko/image/fetch/w_1500,h_700,c_fill,g_face,f_auto/http://hawker-rhinoceros-14037.netlify.com/img/treatment-plan-for-cruelty-servivors.jpg', alt='')
+                  img(src='http://res.cloudinary.com/dwmmtpcko/image/fetch/w_1500,h_700,c_fill,g_face,f_auto/http://hawker-rhinoceros-14037.netlify.com/img/treatment-plan-for-cruelty-survivors.jpg', alt='')
                   .caption.header(data-animate='slideAppearUpToDown', data-delay='500', data-length='300')
                     button.btn.btn-primary
                       h2  Treatment Plan for Cruelty Survivors
