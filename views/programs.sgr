@@ -2,4 +2,69 @@ extends(src='layout.sgr')
   block(name='title')
     title Programs - Symbiotic Behavioral Treatment Center
   block(name='content')
-    p Programs
+    .container
+      .row
+        .recent
+          button.btn-primarys
+            h3 Programs
+          hr
+    .container.content
+      .row
+        .col-md-12
+          img.img-responsive(src='http://res.cloudinary.com/dwmmtpcko/image/fetch/ar_16:9,c_fill,g_face,f_auto/http://hawker-rhinoceros-14037.netlify.com/img/outreach-and-education-program.jpg', alt='')
+          h2#mindfulness Mindfulness Class
+          p Mindfulness is a present-centered awareness in which every thought, feeling, or sensation is acknowledged and accepted without judgment. Post traumatic stress and anxiety sufferers benefit from learning how to be mindful. Developing mindful skills and practices allows for an individual to live life in a different capacity, ultimately increasing one's quality of life. This class incorporates mindfulness exercises with a group of owned and rescue dogs. In our work over the last ten years, we've found that dogs are a perfect example of mindfulness and living "in the moment." Class participants will learn to observe their dogs as they exist in the moment; describe what they are experiencing when they are with their dogs; and experience non-judgment from their dogs. Becoming aware of our thoughts in the moment allows us to begin to be present, particularly when interacting with other people or existing within a large group of other people.
+          p Current classes are 6 weeks in length, with the first class being an orientation to class. Appropriate class size is between 10-15 participants, age 18 and older. Classes run approximately 1 hour, with 45 minutes of active instruction.
+          p Current classes are taught by a Licensed Specialist Clinical Social Worker (LSCSW), as well as dog pack behavior expert, with the educational background in dog training by a certified training institution.
+
+          h2#outpatient Outpatient Treatment
+          ul
+            li Individual and group therapy services will be offered once the SBTC is built. These services are uniquely designed to promote quality of life through the development of innovative behavioral health services.
+            li SBTC is committed to providing wellness and recovery through a comprehensive and integrated treatment format. Treatment protocol is designed and implemented based on individual needs and goals.
+            li Individual and group therapy services will be offered once the SBTC is built. These services are uniquely designed to promote quality of life through the development of innovative behavioral health services.
+            li SBTC is committed to providing education devised to empower an individual to gain a greater understanding of anxiety and/or mood disorders therefore increasing one's overall quality of life.
+            li SBTC is committed to providing the highest quality of care in a therapeutic environment that promotes individual growth and recovery.
+            li Privacy and confidentiality will be maintained throughout an individual's recovery process. The therapeutic environment will be conducive to maintaining a relaxed, tranquil and safe environment for all individuals seeking to participate in care.
+
+          h2 Dog Program
+          h3#inpatient In-patient Visiting Program
+          p
+            | Currently our two Pet Partners&trade; registered therapy dogs, Liam and Leonidas, visit the traumatic brain, acute psychiatry, and post traumatic stress disorder wing at the Veterans Administration Hospital in Topeka, KS. We have been asked to expand the in-patient visiting program and will update the website soon.
+          p
+            | We also hope to expand this program to other behavioral treatment facilities in our community. This program would target patients that are not ready to attend our outpatient facility, but could still greatly benefit from the human-canine bond in a structured environment.
+          p
+            | If you would like to bring our therapy dog program to your hospital or treatment center, please contact us at
+            |
+            a(href='mailto:info@symbtioticbtc.org') info@symbtioticbtc.org
+            | .
+          h3#outreach Outreach and Education
+          p
+            | Currently our registered therapy dogs visit elementary schools and high schools to educate students on the benefits of the human-canine bond, dog safety, and remedies for bullying, including empathy exercises.
+          p
+            | We hope to expand education and outreach with our therapy dogs, as well as the rescue dogs in our program, to after-school programs in the community as well as juvenile detention centers to promote the human-canine bond.
+          h3#survivors Treatment Plan for Cruelty Survivors
+          ul
+            li
+              | The goal of the center is to have a facility that can house 20 dogs safely, securely and comfortably.
+            li
+              | We will maintain a pack of 8-12 dogs so that there are empty runs at the center for emergency capacity in case of special circumstances.
+            li
+              | We will select certain dogs from shelters and rescues to build a pack that will live at the center. Some of the selection will be based on personality, needs and behavior traits.
+            li
+              | While other issues may be addressed, we will not deal with dogs that have any aggression issues toward people.
+            li
+              | Some of the rehabilitation will occur with the trainers and dog handlers and some will occur with the patients.
+            li
+              | We will have a facility equipped for several different kinds of dog activities so that the human-dog interactions can be recreational and &quot;fun&quot; in addition to the structured behavioral modification activities.
+          h2#compassion Compassion Fatigue
+          p
+            | Compassion Fatigue, also known as secondary traumatization comes from the strain of exposure to working with those suffering from the consequences of traumatic events. It differs from burn-out, but can co-exist. Compassion Fatigue can occur due to exposure on one case or can be due to a &quot;cumulative&quot; level of trauma. There is generally higher rate of compassion fatigue among animal welfare professionals and first responders. Our Director of Mental Health, Jill Reese, LCSW, is also a Certified Compassion Fatigue Professional. She received her training and subsequent certification from the International Association of Trauma Professionals, and has specialized certifications in animal welfare professionals and first responders. We offer compassion fatigue counseling in the field and are happy to discuss a session with you. Please contact us at
+            |
+            a(href='mailto:info@symbtioticbtc.org') info@symbioticbtc.org
+            |  for more information.
+          p &nbsp;
+          p
+            | If you are interested in any of our programs, please email us at
+            |
+            a(href='mailto:info@symbtioticbtc.org') info@symbioticbtc.org
+            | .
